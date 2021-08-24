@@ -1,6 +1,6 @@
 # UConvert Website
 
-UConvert is a Digital Marketing Website from Argentina. In this website, you will find out who we are, who trust on us and mainly, how can we help you.
+UConvert is a Digital Marketing Agency from Argentina. In this website, you will find out who we are, who trust on us and mainly, how can we help you.
 
 ## Installation
 
