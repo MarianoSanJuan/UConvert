@@ -1,0 +1,31 @@
+/* CLASES-FOOTER */
+.footer__div--bgcolor {background-color: $color-principal-bordo;}
+.footer__h3--color {color: $color-principal-blanco;}
+
+.botonInstagram
+{width:50px;
+height:50px;
+transition:all 1s}
+
+.botonInstagram:hover
+{width:70px;
+height:70px}
+
+.botonLinkedin
+{width:50px;
+height:50px;
+transition:all 1s}
+
+.botonLinkedin:hover
+{width:70px;
+height:70px}
+
+.imageResize
+{transform: scale(0.5,0.5)}
+
+.alignVertically
+{vertical-align: middle;}
+
+.imageFooter
+{height: 400px;
+width: fit-content;}

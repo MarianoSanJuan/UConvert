@@ -1,0 +1,46 @@
+/* PARÁMETROS */
+$color-principal-bordo:#750f0f;
+$color-principal-blanco:#ffffff;
+$color-principal-azulOscuro:#150941;
+$color-secundario-grisClaro:#e9e9e9;
+$color-secundario-grisOscuro:#5e5b618f;
+$fuente-principal:'Raleway', sans-serif;
+$font-size-h1: 5rem;
+$font-size-h2: 3rem;
+$font-size-h3: 2rem;
+$font-size-p: 1rem;
+
+/* VARIABLES GENÉRICAS */
+
+/* FONTS */
+/* FontColors */
+.fontColorRed {color: $color-principal-bordo;}
+.fontColorWhite {color:$color-principal-blanco;}
+.fontColorBlue {color:$color-principal-azulOscuro;}
+/* FontFamily */
+.fontFamily {font-family: $fuente-principal;}
+/* FontSize */
+.fontSizeH1 {font-size: $font-size-h1;}
+.fontSizeH2 {font-size: $font-size-h2;}
+.fontSizeH3 {font-size: $font-size-h3;}
+.fontSizeP {font-size: $font-size-p;} 
+/* FontBold */
+.fontBold {font-weight: bold;}
+
+/* BUTTONS */
+.colorTextButton  {color:$color-principal-blanco;}
+.textDecorationButton { text-decoration: none;}
+.fontSizeButton{  font-size: 1rem;}
+.borderButton {  border-radius: 6px;}
+.paddingButton {  padding: 2px;}
+.marginButton {  margin: 20px;}
+.borderButtonColor { border-color: $color-principal-azulOscuro;} 
+.botonesBgColor {background-color:$color-principal-azulOscuro;} 
+
+/* ALIGNMMENT */
+.textAlignCenter {text-align: center;}
+
+
+
+  
+
