@@ -1,0 +1,26 @@
+[
+    {
+        "idProducto":1,
+        "precio":10,
+        "proveedor":"Proveedor de Productos A",
+        "stock":100,
+        "nombre":"Zapatillas",
+        "usuario":"usuario Test 1"
+    },
+    {
+        "idProducto":2,
+        "precio":20,
+        "proveedor":"Proveedor de Productos B",
+        "stock":200,
+        "nombre":"Ropa",
+        "usuario":"usuario Test 2"
+    },
+    {
+        "idProducto":3,
+        "precio":30,
+        "proveedor":"Proveedor de Productos C",
+        "stock":300,
+        "nombre":"Vajilla",
+        "usuario":"Usuario Test 3"
+    }
+]
