@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang=es>
+     
+  <!--HEAD  -->
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- CDN Css Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>UConvert | Products</title>
+    <meta name="description" content="Meet our Data-Driven professional Team based on Buenos Aires and subsidiaries all over America">
+      <link rel="stylesheet" href="../css/main.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap"rel="stylesheet"/>
+</head>
+<!-- BODY -->
+<body>
+    <div class="container-fluid g-0">
+      <!-- Header -->
+      <nav class="navbar navbar-expand-lg navbar-dark header__nav--bgcolor  ">
+        <!-- Logo -->
+        <div class="container-fluid fontFamily fontBold">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/3.png" alt="" width="80" height="80">
+          </a>
+          <!--List  -->
+          <button class="navbar-toggler borderButton header__botones--bgcolor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icons"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item header__botones--bgcolor borderButton textAlignCenter marginButton">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item header__botones--bgcolor borderButton textAlignCenter marginButton">
+                <a class="nav-link " href="../pages/blog.html">Blog</a>
+              </li>
+              <li class="nav-item header__botones--bgcolor borderButton textAlignCenter marginButton">
+                <a class="nav-link " href="../pages/aboutus.html">Nosotros</a>
+              </li>
+              <li class="nav-item header__botones--bgcolor borderButton textAlignCenter marginButton">
+                <a class="nav-link" href="../pages/contact.html">Contacto</a>
+              </li>
+              <li class="nav-item  borderButton textAlignCenter marginButton">
+                <a class="nav-link active" href="../pages/products.html">Log out</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+  
+<!-- PRODUCTS CONTENIDO -->
+  <!-- Description -->     
+  <div class="container-fluid g-0">
+    <section class="row ">
+      <article class="col-sm-12 col-md-12 col-lg-12 d-flex flex-column align-items-center justify-content-evenly textAlignCenter ">
+        <h2 class="fontFamily fontColorBlue fontBold fontSizeH2 paddingTitles animate__animated animate__bounce">Bienvenido de nuevo a uConvert</h2>
+        <h3 class="fontFamily fontColorRed  fontBold fontSizeH3 paddingTitles">Primer Software de Ventas 100% Gratuito</h3>
+        <p class="fontFamily fontColorBlue fontSizeP  fontBold paddingTitles">Sabemos que ya estuviste probando el sistema. Si tenés alguna duda escribinos en la sección contacto</p>
+        <h3 class="fontFamily fontColorRed  fontBold fontSizeH3 paddingTitles">Funcionamiento</h3>
+
+        <p class="fontFamily fontColorBlue fontSizeP  fontBold paddingTitles">Carga los productos que vende tu empresa y almacenalos en nuestra base de datos <br> Podes ir agregando los productos cuando quieras <br> Cuando realices una venta, simplemente cliquea en Nueva Venta. Repetí esto las veces que quieras <br> Al terminar el día, el período o cuando quieras, puedes descargar el reporte con toda la información</p>
+      </article>
+    </section>  
+  </div>  
+
+
+  <!-- SubTitle Products -->
+<div class="row">
+  <article class="joinUs__MeetUs--bgcolor col-sm-12 col-md-12 col-lg-12 ">
+    <h2 class="fontFamily fontSizeH3 fontColorWhite  d-flex flex-column align-items-center justify-content-evenly textAlignCenter ">Productos</h2>
+  </article>
+</div>  
+
+
+<!-- Buttoms Show Products -->
+<article class="row">
+<div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+  <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter  ">
+    <button type="button" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold" id="showProductsBtn">Ver productos almacenados</button>
+  </div>
+</div>
+</article>
+
+<!-- Espacio Show Products -->
+<article class="row">
+  <div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter" id="espacioProductsCargados" >
+    </div>
+  </div>
+  </article>
+
+<!-- SubTitle Sales -->
+<div class="row">
+  <article class="joinUs__Question--bgcolor col-sm-12 col-md-12 col-lg-12 ">
+    <h2 class="fontFamily fontSizeH3 fontColorWhite  d-flex flex-column align-items-center justify-content-evenly textAlignCenter ">Sección ventas</h2>
+  </article>
+</div>  
+
+
+<!-- Buttoms New Product -->
+<article class="row">
+<div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+  <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter  ">
+    <button type="submit" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold" id="newProductBtn">Cargar nuevo producto</button>
+  </div>
+</div>
+</article>
+
+<!-- Espacio Product Form -->
+<article class="row">
+  <div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter" id="espacioProductsForm" >
+    </div>
+  </div>
+  </article>
+
+<!-- Submit buttom -->
+<article class="row">
+  <div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter  ">
+      <button type="submit" style="display:none" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold" id="submitBtn">Enviar</button>
+    </div>
+  </div>
+  </article>
+
+<!-- Buttoms New Sale -->
+<article class="row">
+  <div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter  ">
+      <button type="submit" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold" id="newSaleBtn">Nueva venta / Actualizar Stock</button>
+    </div>
+
+  </div>
+  </article>  
+
+  <!-- Espacio Sale Form -->
+<article class="row">
+  <div class="col-sm-12  col-md-12 col-lg-12  paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter" id="espacioSaleForm" >
+    </div>
+  </div>
+  <button id="uploadSale" style="display:none" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold">Procesar venta</button>
+  </article>
+
+<!-- SubTitle Request Data -->
+<div class="row">
+  <article class="joinUs__MeetUs--bgcolor col-sm-12 col-md-12 col-lg-12">
+    <h2 class="fontFamily fontSizeH3 fontColorWhite  d-flex flex-column align-items-center justify-content-evenly textAlignCenter">Reporte!</h2>
+  </article>
+</div> 
+
+
+<!-- Buttom Report -->
+<article class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12 paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter  ">
+      <button type="submit" class="btn colorTextButton textDecorationButton borderButtonColor botonesBgColor fontSizeP fontFamily fontBold" id="ReportBtn">Actualizar reporte</button>
+    </div>
+  </div>
+  </article>
+
+<!-- Inputs+Report -->
+
+<article class="row">
+  <div class="col-sm-12 col-md-12 col-lg-12 paddingTitles">    
+    <div class="d-flex flex-column align-items-center justify-content-evenly textAlignCenter">
+      <ul id=results>  
+        
+      </ul>
+    </div>
+  </div>
+  </article>
+
+ <!-- Pre Footer --> 
+  <section class="container-fluid g-0">
+    <div class="row">
+      <img class="col-lg-12 col-md-12 col-sm-12" src="../images/Diseño sin título (20).png">
+    </div>  
+  </section>
+<!-- Footer -->      
+  <div class="container-fluid g-0">  
+    <footer class="row footer__div--bgcolor">
+      <div class="linkedin col-sm-4 col-md-4 col-lg-4 textAlignCenter">
+        <a href="https://www.linkedin.com/company/uconvertmarketing/">
+        <img  class="botonLinkedin" src="../images/linkedin (1).png" alt="Linkedin-Profile"/></a>             
+      </div>  
+      <div class="col-sm-4 col-md-4 col-lg-4 d-flex flex-column fontFamily align-items-center justify-content-evenly textAlignCenter footer__h3--color fontBold animate__animated animate__bounce">
+        <h3>Follow Us!</h3>  
+      </div>
+      <div class="instagram col-sm-4 col-md-4 col-lg-4 d-flex flex-column align-items-center justify-content-evenly textAlignCenter"><a href="https://www.instagram.com/uconvertmarketing/?hl=es">
+        <img class="botonInstagram"
+        src="../images/instagram (4).png"
+        alt="Instagram-Profile" />
+        </a>
+      </div>  
+    </footer>  
+  </div> 
+</div>     
+<!-- CDN Javascript Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+<!-- JavaScript-Jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../javascript/OBJECTS-10.js"></script> 
+<script src="../javascript/USUARIO-10.js"></script> 
+<script src="../javascript/LOGIN-10.js"></script> 
+<script src="../javascript/PROD-LOGGED-10.js"></script> 
+<script src="../javascript/APPEND-10.JS"></script> 
+</body>
+</html>
